@@ -1,3 +1,4 @@
+# Dependencies
 node_modules
 
 # Output
@@ -7,6 +8,10 @@ node_modules
 .wrangler
 /.svelte-kit
 /build
+
+# IDE / AI tools
+.idea
+.claude
 
 # OS
 .DS_Store
