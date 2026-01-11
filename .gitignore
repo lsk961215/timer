@@ -10,8 +10,8 @@ node_modules
 /build
 
 # IDE / AI tools
-.idea
-.claude
+/.idea
+/.claude
 
 # OS
 .DS_Store
