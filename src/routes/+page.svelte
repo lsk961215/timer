@@ -572,8 +572,18 @@
 			overflow: hidden;
 		}
 
+		.exercise-header {
+			gap: 0.5rem;
+		}
+
 		.exercise-name {
 			font-size: 1.1rem;
+			min-width: 0;
+			margin-right: 0.5rem;
+		}
+
+		.exercise-actions {
+			flex-shrink: 0;
 		}
 
 		.set-card {
