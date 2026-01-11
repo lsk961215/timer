@@ -556,4 +556,70 @@
 		margin-top: 3rem;
 		font-size: 1.1rem;
 	}
+
+	/* 모바일 반응형 스타일 */
+	@media (max-width: 480px) {
+		main {
+			padding: 1rem;
+		}
+
+		h1 {
+			font-size: 1.5rem;
+		}
+
+		.exercise-card {
+			padding: 1rem;
+			overflow: hidden;
+		}
+
+		.exercise-name {
+			font-size: 1.1rem;
+		}
+
+		.set-card {
+			padding: 1rem;
+			overflow: hidden;
+		}
+
+		.timer-display {
+			font-size: 2.25rem;
+		}
+
+		.input-group {
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 0.25rem;
+		}
+
+		.input-label {
+			width: auto;
+		}
+
+		.input-row {
+			width: 100%;
+			gap: 0.5rem;
+		}
+
+		.input-row label {
+			flex: 1;
+			gap: 0.25rem;
+		}
+
+		.input-row input {
+			width: 100%;
+			min-width: 40px;
+			padding: 0.4rem;
+			font-size: 0.9rem;
+		}
+
+		.input-row span {
+			font-size: 0.75rem;
+			white-space: nowrap;
+		}
+
+		.control-btn {
+			padding: 0.6rem;
+			font-size: 0.9rem;
+		}
+	}
 </style>
